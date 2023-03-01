@@ -17,6 +17,7 @@ import git from "../assets/img/git1.png";
 //Repos
 
 import imageRepo from "../assets/img/Captura de pantalla 2023-02-28 032531.png"
+import imageyoutube from "../assets/img/youtube.png";
 
 export const technologies = [
   {
@@ -84,20 +85,21 @@ export const technologies = [
 export const data = [
   {
     proyect:"Notes Redux",
-    link:"https://appdenotes.netlify.app/",
-    repo:"https://github.com/21Esteban",
-    img:imageRepo
+    repo:"https://appdenotes.netlify.app/",
+    link:"https://github.com/21Esteban",
+    img:imageRepo,
+    
+  },
+  {
+    proyect:"Youtube Redux",
+    repo:"https://github.com/21Esteban/FrontendReduxYoutube",
+    link:"https://kaleidoscopic-gumption-653d19.netlify.app",
+    img:imageyoutube
   },
   {
     proyect:"Notes Redux",
-    link:"https://appdenotes.netlify.app/",
-    repo:"https://github.com/21Esteban",
-    img:imageRepo
-  },
-  {
-    proyect:"Notes Redux",
-    link:"https://appdenotes.netlify.app/",
-    repo:"https://github.com/21Esteban",
+    repo:"https://appdenotes.netlify.app/",
+    link:"https://github.com/21Esteban",
     img:imageRepo
   }
 ];
