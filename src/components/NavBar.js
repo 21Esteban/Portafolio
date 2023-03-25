@@ -9,7 +9,6 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-import {FaWhatsapp} from "react-icons/fa"
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -38,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -56,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://instagram.com/esteban_lc21?igshid=YmJhNjkzNzY=" target={"_blank"}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Let's Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
