@@ -1,18 +1,16 @@
-import JavaScripImg from "../assets/img/js.png";
 import nodejs from "../assets/img/nodejs.png";
 import React from "../assets/img/react.png";
-import redux from "../assets/img/redux.png";
 import express from "../assets/img/express.png";
 import fastify from "../assets/img/fastify.png";
-import html from "../assets/img/html.png";
-import css from "../assets/img/css.png";
 import java from "../assets/img/java.png";
-import springboot from "../assets/img/springboot.png";
 import MongoDb from "../assets/img/mongodb.png";
-import MySql from "../assets/img/mysql.png";
-import bootstrap from "../assets/img/bootstrap-logo.png";
+import postgress from "../assets/img/postgress.png";
 import native from "../assets/img/reactNative.png";
 import git from "../assets/img/git1.png";
+import docker from "../assets/img/Docker.png"
+import vue from "../assets/img/vue.png"
+import c from "../assets/img/c++.png"
+
 
 //Repos
 
@@ -21,20 +19,20 @@ import imageyoutube from "../assets/img/youtube.png";
 
 export const technologies = [
   {
-    name: "JavaScript",
-    img: JavaScripImg,
-  },
-  {
     name: "NodeJs",
     img: nodejs,
+  },
+  {
+    name: "C++",
+    img: c,
   },
   {
     name: "React",
     img: React,
   },
   {
-    name: "Redux toolkit",
-    img: redux,
+    name: "vue",
+    img: vue,
   },
   {
     name: "Express",
@@ -45,40 +43,28 @@ export const technologies = [
     img: fastify,
   },
   {
-    name: "Html",
-    img: html,
-  },
-  {
-    name: "Css",
-    img: css,
-  },
-  {
     name: "Java",
     img: java,
-  },
-  {
-    name: "SpringBoot",
-    img: springboot,
   },
   {
     name: "MongoDb",
     img: MongoDb,
   },
   {
-    name: "MySql",
-    img: MySql,
-  },
-  {
-    name: "Bootstrap",
-    img: bootstrap,
+    name: "postgress",
+    img: postgress,
   },
   {
     name: "React Native",
     img: native,
   },
   {
-    name: "Git",
+    name: "Github",
     img: git,
+  },
+  {
+    name: "Docker",
+    img: docker,
   },
 ];
 

@@ -5,7 +5,7 @@ import "animate.css";
 import Card from "react-bootstrap/Card";
 import { data } from "../data/data";
 import imggithub from "../assets/img/github.png";
-import { FaEye, FaGithub } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 
 export const Projects = () => {
   
@@ -33,7 +33,7 @@ export const Projects = () => {
               <Card.Text>{data.proyect}</Card.Text>
               <div className="githubanimate">
                 <a href={data.repo} width={"10px"}>
-                  <img src={imggithub} style={{ width: "70px" }} />
+                  <img src={imggithub} style={{ width: "70px" }} alt="" />
                 </a>
                 <a href={data.link} width={"10px"} style={{borderRadius:"50%"}}>
                 <FaEye className="i" style={{width:"100px",color:"fff"}}/>

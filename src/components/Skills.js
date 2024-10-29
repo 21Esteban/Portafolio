@@ -1,17 +1,6 @@
-// import meter1 from "../assets/img/meter1.svg";
-// import meter2 from "../assets/img/meter2.svg";
-// import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-import colorSharp from "../assets/img/color-sharp.png";
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-
-import {technologies} from "../data/data"
-
-
-
+import { technologies } from "../data/data";
 
 export const Skills = () => {
   const responsive = {
@@ -41,29 +30,25 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>
-              Some of the technologies I have worked with
-              </p>
+              <p>Technologies I have experience with</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider "
-                
+                autoPlay={ true }
+                autoPlaySpeed={1000}
               >
-                
-                  {technologies.map((technologies,index)=>(
-                    <div className="item" key={index} >
-                    <img src={technologies.img} alt="Image"/>
-                    <h3>{technologies.name}</h3>
+                {technologies.map((technologies, index) => (
+                  <div className="item" key={index} >
+                    <img src={technologies.img} alt="skills" style={{width:"200px"}}/>
+                    <h3 >{technologies.name}</h3>
                   </div>
-                  ))}
-                
+                ))}
               </Carousel>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
