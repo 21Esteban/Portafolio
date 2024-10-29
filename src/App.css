@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 85px 50px;
   margin-top: -60px;
 }
 .skill h2 {
@@ -688,3 +688,17 @@ section .project .container{
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+  right: calc(0% + 1px);
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+  left: (0% + 1px) !important
+}
+
+.react-multiple-carousel__arrow--left{
+  left: (0% + 1px) !important
+}
+
